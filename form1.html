@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Form</title>
+</head>
+<body>
+    <form action="submit.php" method="POST">
+        <label for="name"> Full Name :   </label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="Phone">Phone No : </label>
+        <input type="integer" id="phoneno" name="phoneno"><br><br>
+        <label for="course">Course</label><br>
+        <input type="radio" id="Bachelors" name="Bachelors">
+        <label for="Bachelors">Bachelors </label><br>
+        <input type="radio" id="Masters" name="Masters">
+        <label for="Masters">Masters</label><br><br>
+        <label for="description">Description : </label>
+        <textarea type="textarea" name="description" id="description"></textarea><br><br>
+        <label for="Subject">Subject Interest : </label><br>
+        <input type="checkbox" id="subject1" name="subject1" value="Artificial Intelligence">
+        <label for="subject1"> Artificial Intelligence </label><br>
+        <input type="checkbox" id="subject2" name="subject2" value="Machine Learning">
+        <label for="subject2"> Machine Learning </label><br>
+        <input type="checkbox" id="subject3" name="subject3" value="Web Development">
+        <label for="subject3"> Web Development </label><br>
+        <input type="checkbox" id="subject4" name="subject4" value="Cloud Computing">
+        <label for="subject4"> Cloud Computing</label><br><br>
+        <input type="submit" name="submit" value="submit">
+    </form>
+
+</body>
+</html>
